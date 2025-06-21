@@ -157,6 +157,7 @@ const Candidates = () => {
   const handleMenuClick = (idx) => {
     setOpenMenu(openMenu === idx ? null : idx);
   };
+  
 
   const handleOptionClick = async (option, candidate) => {
     setOpenMenu(null);
