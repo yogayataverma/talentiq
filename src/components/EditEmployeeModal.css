@@ -1,0 +1,181 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.edit-employee-modal {
+  width: 790px;
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #e0d7f7;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 32px rgba(77,0,125,0.18);
+}
+
+.edit-employee-modal-top {
+  width: 100%;
+  height: 67px;
+  background: #4D007D;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.edit-employee-modal-title {
+  color: #fff;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  width: 100%;
+}
+
+.edit-employee-form {
+  padding: 32px 40px;
+}
+
+.edit-employee-form-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 32px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.edit-employee-save-btn {
+  width: 116px;
+  height: 38px;
+  border-radius: 50px;
+  padding: 8px 40px;
+  background: #4D007D;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 24px;
+  transition: background 0.2s;
+}
+
+.edit-employee-save-btn:hover {
+  background: #a084ca;
+}
+
+.edit-employee-save-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.edit-employee-save-btn[disabled] {
+  background-color: #A4A4A4;
+  cursor: not-allowed;
+}
+
+.edit-employee-modal .add-candidate-input-group select {
+    width: 100%;
+    height: 48px;
+    border-radius: 12px;
+    border: 1px solid #A4A4A4;
+    padding: 0 18px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    color: #121212;
+    background: #fff;
+    outline: none;
+}
+
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1001;
+  border-radius: 0 0 8px 8px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.search-results li {
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.search-results li:hover {
+  background-color: #f0f0f0;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.edit-employee-modal .add-candidate-input-group textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 12px;
+    border: 1px solid #A4A4A4;
+    padding: 14px 18px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    color: #121212;
+    background: #fff;
+    outline: none;
+    resize: vertical;
+}
+
+.add-candidate-input-group .with-calendar-icon {
+    position: relative;
+    width: 100%;
+}
+
+.with-calendar-icon .input-icon {
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    transform: translateY(-50%);
+    color: #A4A4A4;
+    pointer-events: none;
+}
+
+.with-search-icon {
+  position: relative;
+  width: 100%;
+}
+
+.search-icon {
+  position: absolute;
+  left:2px;
+  top: 46%;
+  transform: translateY(-50%);
+  color: #A4A4A4;
+  pointer-events: none;
+  font-size: 18px;
+  z-index: 2;
+}

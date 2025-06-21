@@ -1,0 +1,161 @@
+.leaves-page-layout {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+}
+
+.section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.leaves-table-section {
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+}
+
+.leaves-calendar-section {
+  flex: 3;
+  padding-left: 0;
+  margin-top: 40px;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.calendar-group {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 0 0 16px 16px;
+  overflow: hidden;
+}
+
+.approved-leaves-section {
+  margin-top: 0;
+}
+
+.approved-leaves-table-wrapper {
+  margin-top: 16px;
+  border-radius: 8px;
+  text-align: left;
+  border: 1px solid none;
+  background-color: white;
+  padding: 16px 20px;
+  border-radius: 0;
+}
+
+.approved-leaves-title {
+  background-color: white;
+  color: #4D007D;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 8px 20px;
+  border-radius: 8px;
+  text-align: left;
+  border: 1px solid none;
+}
+
+.approved-leaves-title-unique {
+  background-color: white;
+  color: #4D007D;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 8px 20px;
+  border-radius: 8px;
+  text-align: left;
+  border: 1px solid none;
+}
+
+.applied-leaves-title {
+  background-color: #4D007D;
+  color: white;
+  padding: 8px 20px;
+  text-align: left;
+  margin-bottom: 0;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  width: 100%;
+  max-width: 1120px;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+.leaves-page-table-section .dashboard-table-wrapper {
+  margin-top: 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 16px;
+}
+
+.leaves-page-table-section .dashboard-table th:first-child {
+  border-top-left-radius: 0;
+}
+.leaves-page-table-section .dashboard-table th:last-child {
+  border-top-right-radius: 0;
+}
+
+.leave-calendar-title {
+  margin-top: 40px;
+  background-color: #4D007D;
+  color: white;
+  margin-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.leaves-calendar-section .react-calendar {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.approved-leave-date {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #4D007D;
+  white-space: nowrap;
+}
+
+.react-calendar__tile.has-leave {
+  border: 2px solid #4D007D;
+  position: relative;
+}
+
+.leave-count-circle {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  width: 18px;
+  height: 18px;
+  background-color: #4D007D;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+} 
