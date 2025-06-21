@@ -84,7 +84,7 @@ const Leaves = () => {
       alert('No document available.');
       return;
     }
-    window.open(`http://localhost:5000/${docsUrl}`);
+    window.open(`https://talentiq-jwlg.onrender.com/${docsUrl}`);
   };
 
   return (

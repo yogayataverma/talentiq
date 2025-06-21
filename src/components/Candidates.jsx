@@ -168,7 +168,7 @@ const Candidates = () => {
         console.error('Error deleting candidate:', error);
       }
     } else if (option === 'Download Resume') {
-      window.open(`http://localhost:5000/${candidate.resume}`);
+      window.open(`https://talentiq-jwlg.onrender.com/${candidate.resume}`);
     } else {
       alert(`${option} for ${candidate.name}`);
     }

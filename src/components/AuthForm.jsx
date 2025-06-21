@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './AuthForm.css';
 import { useNavigate } from 'react-router-dom';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://talentiq-jwlg.onrender.com/api';
 
 function Popup({ message, onClose, type }) {
   if (!message) return null;

@@ -13,6 +13,10 @@ TalentIQ is a HR Management Dashboard designed to streamline recruitment, employ
 - **Filtering and Search:** Easily search and filter data across all modules for quick access to information.
 - **Responsive Design:** A clean and modern UI that is fully responsive and works on all screen sizes.
 
+## Live Demo
+
+[View the live project](https://talent-iq.netlify.app/)
+
 ## Video Demo
 
 [Watch the video demo](https://screenrec.com/share/Ttr3vlcIME)
